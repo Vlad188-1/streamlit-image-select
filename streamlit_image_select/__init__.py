@@ -74,4 +74,4 @@ def image_select(label: str, images: list, captions: list = None, key: str = Non
     
     # The frontend component returns the index of the selected image but we want to 
     # return the actual image.
-    return images[component_value]
+    return images[component_value], component_value
